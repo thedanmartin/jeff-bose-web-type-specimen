@@ -1,0 +1,756 @@
+
+/*
+BACKGROUND COLORS:
+#282828 - Dark Gray
+#3B3B3B - Gray
+#555555 - Light Gray
+
+#EE2500 - Red
+#EE5600 - Orange
+#EE8A00 - Light Orange
+
+
+*/
+
+
+@import url("https://use.typekit.net/hjt1gxe.css");
+
+@keyframes totopanim {
+  from {line-height: 40px;}
+  to {line-height: 60px;}
+}
+
+@keyframes color-change {
+  0% { color:#EE2500; }
+  25% { color:#EE5600; }
+  50% { color:#EE8A00; }
+  75% { color:#EE5600; }
+  100% { color: #EE2500; }
+}
+
+@keyframes backcolor-change {
+  0% { background-color:#EE2500; }
+  25% { background-color:#EE5600; }
+  50% { background-color:#EE8A00; }
+  75% { background-color:#EE5600; }
+  100% { background-color: #EE2500; }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(.2vw) }
+  50% { transform: translateY(-.2vw) }
+  75% { transform: translateX(.2vw) }
+  100% { transform: translateY(0) }
+ }
+
+ @keyframes kometexp1 {
+  10% {transform: translateX(0vw);}
+  20% {transform:translateX(2.6vw);}
+}
+
+@keyframes kometexp3 {
+  10% {transform: translateX(0vw);}
+  20% {transform:translateX(-2.6vw);}
+}
+
+@keyframes kometexp4 {
+  10% {transform: translateX(0vw);}
+  20% {transform:translateX(-5.2vw);}
+}
+
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+body {
+  font-family: "Komet", sans-serif, serif;
+  background-color:#3B3B3B;
+  color:white;
+  margin:0px;
+  overflow-x: hidden;
+  
+}
+
+::selection {
+  color:#EE2500;
+  background-color:white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-5vh);
+}
+
+/* Navigation */
+.navigation {
+  width:100%;
+  height: 110px;
+  background-color: #282828;
+  display:flex;
+  position:sticky;
+  top:0;
+  z-index: 1;
+
+}
+
+#NAVTITLE {
+  font-size: 75px;
+  padding-top:5px;
+  padding-left: 10px;
+  font-weight: 900;
+  display:flex;
+}
+
+#NAVTITLE:hover {
+  animation: color-change 2s infinite;
+}
+
+#NAVBTNSHOLDER {
+  width:70%;
+  margin:auto;
+  display: flex;
+}
+
+.navbutton {
+
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+
+  background-color:#555555;
+  width:100%;
+  margin:auto;
+  margin-right:5px;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 30px;
+}
+
+.navbutton:hover {
+  animation: color-change 2s infinite;
+}
+
+.navbutton:active {
+  animation: backcolor-change 2s reverse infinite;
+}
+
+
+#NAVRED {
+  border: #EE2500 4px solid;
+  margin:0px;
+  position:sticky;
+  top:110px;
+  z-index: 1;
+}
+
+#NAVORANGE {
+  border: #EE5600 4px solid;
+  margin:0px;
+  position:sticky;
+  top:118px;
+  z-index: 1;
+}
+
+#NAVYELLOW {
+  border: #EE8A00 4px solid;
+  margin:0px;
+  position:sticky;
+  top:126px;
+  z-index: 1;
+}
+
+.totop {
+  background-color: #282828;
+  width: 17vw;
+  height: 17vw;
+  max-width: 150px;
+  max-height: 150px;
+  text-align: center;
+  display:flex;
+  border: #EE2500 1px solid;
+  border-radius: 100%;
+  float:right;
+  margin-right: 25px;
+  margin-top: 25px;
+  position:sticky;
+  top:160px;
+  z-index: 1;
+
+  text-decoration: none;
+  color:white;
+  font-size: min(8.7vw, 80px);
+  
+  font-weight: 700;
+  filter: drop-shadow(5px 5px 0px black);
+}
+
+.totop:hover {
+  animation: color-change 2s infinite;
+}
+
+.totop:active {
+  animation: backcolor-change 2s infinite;
+}
+
+p.totoptext {
+  position: relative;
+  line-height: 40px;
+  margin:auto;
+  width:90%;
+
+}
+
+p.totoptext:hover {
+  animation: totopanim;
+  animation-duration: 1s;
+  line-height: 60px;
+}
+/* ------------------------ */
+
+/* Sections */
+.section {
+  width:73%;
+  margin:auto;
+  margin-top:250px;
+}
+
+.sectionI
+{
+  margin-top: 150px;;
+  width:50%;
+}
+
+.sectionheader {
+  background-color:#555555;
+  border: #EE2500 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  font-size: 2vw;
+  font-weight: bold;
+
+  width:auto;
+  height: auto;
+  display:inline-flex;
+  margin-left: 3.5vw;
+  padding:15px;
+}
+/* -------END NAV SECTION-------- */
+
+/* Introduction Section */
+.introduction {
+  background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  font-size: 1.2vw;
+  max-width: 1600px;
+  margin-top:25px;
+  padding:25px;
+  line-height: 35px;
+}
+/* -------END INTRO SECTION-------- */
+
+/* Alphabet Section */
+#AZ {
+  background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+  margin:auto;
+  width:90%;
+  max-width: 1600px;
+
+  font-size: 5vw;
+  text-align: center;
+
+  margin-top:25px;
+  padding:1vw;
+}
+
+.weightbar {
+  width: 100%;
+  margin:auto;
+  margin-top:20px;
+  text-align: center;
+}
+
+.weightbtn {
+  background-color:#555555;
+  border: #EE8A00 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  width:auto;
+  padding: .5vw 1vw .5vw 1vw;
+  margin: .5vw;
+  background-color: #555555;
+  color:white;
+  font-size: 2.5vw;
+  font-style: normal;
+}
+
+.arrowbtn {
+  background-color:#555555;
+  border: #EE8A00 1px solid;
+  border-radius: 100%;
+  filter: drop-shadow(5px 5px 0px black);
+
+
+  color:white;
+  text-align: center;
+  font-size: 2.5vw;
+  width:3.5vw;
+  height:3.5vw;
+  margin-left: .1vw;
+  margin-right: .1vw;
+}
+
+.customtext {background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+  width:80%;
+  max-width: 1400px;
+
+  font-size: 5vw;
+  text-align: center;
+
+  padding:1vw;
+
+  color:white;
+  font-family: Komet;
+  margin:10%;
+  margin-top: 1vw;
+  margin-bottom: 0;
+
+  resize: none;
+
+}
+
+/* ------END AZ SECTION------ */
+
+/* Body Text Section */
+.bodytext {
+  background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  margin: auto;
+  margin-top:25px;
+  padding:25px;
+  max-width: 1600px;
+  font-size: 1.2vw;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.paragraph1 {
+  width:57%;
+  height:auto;
+  margin-right:3%;
+}
+
+.paragraph2 {
+  width:40%;
+  text-align: justify;
+  float:right;
+  font-weight: lighter;
+}
+h3.p2 {
+  font-weight: lighter;
+}
+
+.paragraph3 {
+  width:100%;
+}
+
+.bodyhover {
+  font-weight:bolder;
+}
+
+.bodyhover:hover {
+  animation: color-change 2s infinite;
+}
+
+/* ------END BODY SECTION------*/
+
+/* Display Text Section */
+.displaysection {
+  width:100%;
+}
+
+.displayheader {
+  margin-left: 43%;
+  margin-right: 43%;
+  text-align: center;
+}
+
+.displaytext {
+  background-color:#555555;
+  border-top: #EE5600 1px solid;
+  border-bottom: #EE5600 1px solid;
+  filter: drop-shadow(5px 5px 0px black);
+
+  margin-top:25px;
+  padding:25px;
+  height:120vw;
+  overflow-x: hidden;
+}
+
+.gigantic {
+  position: absolute;
+  filter: drop-shadow(5px 5px 0px black);
+  font-weight: 700;
+  font-size: 29vw;
+  left: -11vw;
+  letter-spacing: -2.5vw;
+}
+
+.questionably {
+  filter: drop-shadow(5px 5px 0px black);
+  position: absolute;
+  font-size:  12vw;
+  top:30vw;
+  right:3vw;
+}
+
+.multipronged {
+  filter: drop-shadow(5px 5px 0px black);
+  position:absolute;
+  font-size:12vw;
+  top: 40.5vw;
+  left:3.65vw;
+}
+
+.hypnotizable {
+
+    position:absolute;
+    font-size:10vw;
+    font-weight: 600;
+    top: 55vw;
+    right:3vw;
+}
+
+.hypnotizablered {
+  right:3.8vw;
+  color:#EE2500;
+}
+
+.hypnotizableorange {
+  right:2.2vw;
+  color:#EE5600;
+}
+
+.thisiskomet {
+  
+  filter: drop-shadow(5px 5px 0px black);
+  position:absolute;
+  font-size:25vw;
+  font-weight: 600;
+  top: 75vw;
+  left:2vw;
+  letter-spacing: -1.4vw;
+  line-height: 17.5vw;
+}
+
+/* ------END DISPLAY SECTION ------*/
+
+/* Experiments Section */
+.experiments {
+  background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  margin-top:25px;
+  padding:25px;
+  height: 135vw;
+}
+
+#kometexperiment:hover {
+  animation: color-change 10s infinite;
+}
+
+#kometexp1 {
+  font-size: 12vw;
+  font-weight: 900;
+  
+  position: absolute;
+  left:17.4vw;
+  animation: kometexp1 10s infinite;
+}
+
+#kometexp2 {
+  font-size: 12vw;
+  font-weight: 900;
+  
+  position: absolute;
+  left:17.4vw;
+  opacity: 75%;
+}
+
+#kometexp3 {  
+  font-size: 12vw;
+  font-weight: 900;
+  
+  position: absolute;
+  left:17.4vw;
+  opacity: 50%;
+  animation: kometexp3 10s infinite;
+}
+
+#kometexp4 {
+  font-size: 12vw;
+  font-weight: 900;
+  
+  position: absolute;
+  left:17.4vw;
+  opacity: 25%;
+  animation: kometexp4 10s infinite;
+}
+
+.rocket{
+  width:50%;
+  position: absolute;
+  left:25%;
+  top:20vw;
+  margin: auto;
+  animation: shake 0.5s infinite;
+}
+
+.rocketmiddle {
+  font-size: 7vw;
+  line-height: 4.7vw;
+  position: absolute;
+  left:13vw;
+  transform: rotate(-5deg);
+}
+
+.rocketleft {
+  font-size: 5vw;
+  line-height: 3.4vw;
+  position: absolute;
+  left:10.5vw;
+  top:7.9vw;
+  transform: rotate(-5deg);
+}
+
+.rocketright {
+  font-size: 5vw;
+  line-height: 3.4vw;
+  position: absolute;
+  left:17.7vw;
+  top:7.3vw;
+  transform: rotate(-5deg);
+}
+
+.rocketmiddlenose {
+  padding:.3vw;
+}
+
+.rocketmiddlecone {
+  position: absolute;
+  font-size: 10vw;
+  left:-.5vw;
+  top:28.5vw;
+}
+
+.rocketsidenose {
+  padding:.2vw;
+}
+
+.rocketsidecone {
+  position: absolute;
+  font-size: 7vw;
+  left:-.35vw;
+  top:20.5vw;
+}
+
+.largeplume {
+  font-size: 6vw;
+  animation: color-change 2s infinite;
+}
+
+.largeplumerev {
+  font-size: 6vw;
+  animation: color-change 2s reverse infinite;
+}
+
+.mediumplume {
+  font-size: 4vw;
+  animation: color-change 2s infinite;
+}
+
+.mediumplumerev {
+  font-size: 4vw;
+  animation: color-change 2s reverse infinite;
+}
+
+.smallplume {
+  font-size: 2.5vw;
+  animation: color-change 2s infinite;
+}
+
+.smallplumerev {
+  font-size: 2.5vw;
+  animation: color-change 2s reverse infinite;
+}
+
+.fastplume {
+  animation: shake 0.1s infinite;
+}
+
+.normalplume {
+  animation: shake 0.2s infinite;
+}
+
+.slowplume {
+  animation: shake 0.3s infinite;
+}
+
+
+.calendar {
+  position: absolute;
+  top:85vw;
+  width:90%;
+  margin:auto;
+  right:5%;
+}
+
+.grid-container {
+  display:grid;
+  column-count: 7;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  border: black 3px solid;
+}
+
+.calendartitle {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  padding: .1vw 1vw .1vw 1vw;
+  font-size: 4vw;
+  font-weight: 800;
+  border: black 1px solid;
+  background-color: #EE5600;
+}
+
+.daytitle {
+  width:auto;
+  height:3vw;
+  padding-top: .6vw;
+  border: black 1px solid;
+  text-align: center;
+  font-size: 2vw;
+  padding:.1vw;
+  color:black;
+  font-weight: 600;
+  background-color: white;
+}
+
+.day {
+  width:auto;
+  border: black 1px solid;
+  padding: .5vw;
+  padding-top: .1vw;
+  color:black;
+  background-color: white;
+  height:7vw;
+}
+
+.offday {
+  color:rgb(169, 169, 169);
+}
+
+.calendaryear {
+  float:right;
+}
+
+/*-------END EXPERIMENT SECTION-------*/
+
+/* Get the Font section */
+
+.getthefont {
+  
+  background-color:#555555;
+  border: #EE5600 1px solid;
+  border-radius: 30px;
+  filter: drop-shadow(5px 5px 0px black);
+
+  width:38vw;
+  margin:auto;
+  margin-top: 2vw;
+  font-size: 5vw;
+  font-weight: 900;
+  padding-left:1.5vw;
+  text-align: center;
+  color:white;
+  display:flex;
+  margin-bottom: 150px;
+
+}
+
+button:hover, a:hover {
+  background-color: #3b3b3b;
+}
+
+button:active, a:active {
+  animation: backcolor-change 2s infinite;
+}
+/* ------- END GTF --------/*
+
+/* Footer Section */
+
+.footer {
+  background-color: #282828;
+  width:100%;
+  height:12vw;
+  display:flex;
+}
+
+.footerabout {
+  text-align: center;
+  font-size: min(1.0vw, 1.0vw);
+  margin:auto;
+  margin-top:15px;
+  position: absolute;
+  left: 42%;
+}
+
+div.footernav {
+  position: absolute;
+  right:10px;
+  text-align: right;
+  line-height: 1.5vw;
+  
+}
+
+a {
+  text-decoration: none;
+  font-size: min(1.0vw, 1.0vw);
+  color:white;
+}
+
+#FOOTERTITLE {
+  
+  font-size: min(5vw,5vw);
+  padding-top:5px;
+  padding-left: 10px;
+  font-weight: 900;
+}
+
+
+/* -------- END FOOTER ------ */

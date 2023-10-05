@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/plumes.css">
+    <script src="scripts/komet.js"></script>
+</head>
+
+<body onload="StartUp()">
+
+<!-- NAVIGATION -->
+<div id=#top></div>
+<div class="navigation">
+  <div id="NAVTITLE">KOMET</div>
+
+  <div id="NAVBTNSHOLDER">
+
+    <a class="navbutton" href="#introduction">INTRO</a>
+    <a class="navbutton" href="#AtoZ">AZ</a>
+    <a class="navbutton" href="#bodytext">BODY</a>
+    <a class="navbutton" href="#displaytext">DISPLAY</a>
+    <a class="navbutton" href="#experiments">EXPERIMENTS</a>
+
+  </div>
+</div>
+<hr id="NAVRED">
+<hr id="NAVORANGE">
+<hr id="NAVYELLOW">
+
+<a class="totop" href="#top"><p class="totoptext">A<BR>I</p></a>
+
+<!-- ****************** -->
+
+<span class="anchor" id="introduction"></span>
+<div class="section sectionI">
+
+  <div class="sectionheader">
+    INTRODUCTION
+  </div>
+
+  <div class="introduction">
+    <p>
+      Komet derives inspiration from classical english sans-serifs.
+       The muted, understated middle weights are built for extended body copy,
+       while its thin and dark weights make for expressive headlines.</p>
+
+    <p>
+      The author of this font, Jan Fromm, designs, develops, and distributes contemporary typefaces.
+       The main focus is on high-quality text fonts that satisfy the requirements
+       of demanding typography applications: Great legibility, originality,
+       excellent technical implementation. With passion and attention to
+       detail, Jan Fromm is continually expanding his retail library.
+    </p>
+  </div>
+
+</div>
+
+
+<span class="anchor" id="AtoZ"></span>
+<div class="section">
+  <div class="sectionheader">
+    ALPHABET
+  </div>
+
+  <div id="AZ">
+      Aa Bb Cc Dd Ee Ff Gg Hh Ii<br> Jj Kk Ll Mm Nn Oo Pp Qq<br> Rr Ss Tt Uu Vv Ww Xx Yy Zz<br>
+       1 2 3 4 5 6 7 8 9 0<br>
+       ! ? @ # $ % ^ & * : ; , .
+  </div>
+  <textarea id="customtext" class="customtext" rows="1" cols="10" maxlength="19">CUSTOM WORD</textarea>
+  <div class="weightbar">
+    <button type="button" onclick="ChangeAZWeightLeft()" class="arrowbtn"><</button>
+    <button type='button' style="font-weight: 100;" onclick="ChangeAZWeight('100')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('300')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('400')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('500')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('700')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('800')" class="weightbtn">AZ</button>
+    <button type='button' onclick="ChangeAZWeight('900')" class="weightbtn">AZ</button>
+    <button type="button" onclick="ChangeAZWeightRight()" class="arrowbtn">></button>
+  </div>
+</div>
+
+
+<span class="anchor" id="bodytext"></span>
+<div class="section">
+  <div class="sectionheader">
+    BODY TEXT
+  </div>
+
+  <div class="bodytext">
+
+    <div class="paragraph1">
+    <h3><span class="bodyhover">Halley's Comet</span></h3>
+    <p>
+      <span class="bodyhover">Halley's Comet</span> or <span class="bodyhover">Comet Halley</span>, officially designated 1P/<span class="bodyhover">Halley</span>, is a short-period
+      comet visible from Earth every 75-79 years. <span class="bodyhover">Halley</span> is the only known short-period
+      comet that is regularly visible to the naked eye from Earth, and thus the only
+      naked-eye comet that can appear twice in a human lifetime. <span class="bodyhover">Halley</span> last appeared
+      in the inner parts of the Solar System in 1986 and will next appear in mid-2061.</p>
+
+    <p>
+      <span class="bodyhover">Halley's</span> periodic returns to the inner Solar System have been observed and recorded
+      by astronomers around the world since at least 240 BC. But it was not until 1705 that
+      the English astronomer <span class="bodyhover">Edmond Halley</span> understood that these appearances were reappearances
+      of the same comet. As a result of this discovery, the comet is named after <span class="bodyhover">Halley</span>.</p>
+
+    <p>
+      During its 1986 visit to the inner Solar System, <span class="bodyhover">Halley's Comet</span> became the first comet
+      to be observed in detail by spacecraft, providing the first observational data on the
+      structure of a comet nucleus and the mechanism of coma and tail formation. These
+      observations supported a number of longstanding hypotheses about comet construction,
+      particularly Fred Whipple's “dirty snowball” model, which correctly predicted that
+      <span class="bodyhover">Halley</span> would be composed of a mixture of volatile ices—such as water, carbon dioxide,
+      ammonia, and dust. The missions also provided data that substantially reformed and
+      reconfigured these ideas; for instance, it is now understood that the surface of
+      <span class="bodyhover">Halley</span> is largely composed of dusty, non-volatile materials, and that only a small
+      portion of it is icy.</p>
+    </div>
+
+    <div class="paragraph2">
+      <h3 class="p2"><span class="bodyhover">Hyakutake Comet</span></h3>
+      <p><span class="bodyhover">Comet Hyakutake</span>, formally designated C/1996 B2) is a
+          comet, discovered on 31 January 1996, that passed
+          very close to Earth in March of that year. It was
+          dubbed the Great Comet of 1996; its passage near
+          the Earth was one of the closest cometary
+          approaches of the previous 200 years. <span class="bodyhover">Hyakutake</span>
+          appeared very bright in the night sky and was
+          widely seen around the world. The comet
+          temporarily upstaged the much anticipated Comet
+          Hale-Bopp, which was approaching the inner
+          Solar System at the time.
+          Scientific observations of the comet led to several
+          discoveries. Most surprising to cometary scientists
+          was the first discovery of X-ray emission from a
+          comet, believed to have been caused by ionised
+          solar wind particles interacting with neutral atoms
+          in the coma of the comet. The Ulysses spacecraft
+          unexpectedly crossed the comet's tail at a
+          distance of more than 500 million km (3.3 AU; 310
+          million mi) from the nucleus, showing that
+          <span class="bodyhover">Hyakutake</span> had the longest tail known for a
+          comet.
+          <span class="bodyhover">Hyakutake</span> is a long-period comet. Before its
+          most recent passage through the Solar System, its
+          orbital period was about 17,000 years, but the
+          gravitational perturbation of the giant planets has
+          increased this period to 70,000 years.</p>
+    </div>
+
+    <div class="paragraph3">
+      <h3><span class="bodyhover">Hale-Bopp Comet</span></h3>
+      <p><span class="bodyhover">Comet Hale-Bopp</span> (formally designated C/1995 O1) is a comet that
+         was one of the most widely observed of the 20th century and one
+         of the brightest seen for many decades.</p>
+
+      <p>
+        Alan Hale and Thomas Bopp discovered <span class="bodyhover">Comet Hale-Bopp</span> separately on
+        July 23, 1995, before it became visible to the naked eye. It is difficult
+        to predict the maximum brightness of new comets with any degree of certainty,
+        but <span class="bodyhover">Hale-Bopp</span> exceeded most predictions when it passed perihelion on
+        April 1, 1997, reaching about magnitude -1.8. It was visible to the
+        naked eye for a record 18 months, due to its massive nucleus size.
+        This is twice as long as the Great Comet of 1811, the previous record holder.
+        Accordingly, <span class="bodyhover">Hale-Bopp</span> was dubbed the great comet of 1997.</p>
+    </div>
+
+  </div>
+</div>
+
+<span class="anchor" id="displaytext"></span>
+<div class="section displaysection">
+  <div class="sectionheader displayheader">
+    DISPLAY TEXT
+  </div>
+
+  <div class="displaytext">
+    <span class="gigantic">GIGANTIC</span>
+    <span class="questionably">Questionably<span style="color:#EE2500">?</span></span>
+    <span class="multipronged">MULTI<span style="font-style: italic">PRONG<span style="font-weight:lighter">E</span>D</span></span>
+
+    <span class="hypnotizable">HYPNOTIZABLE</span>
+    <span class="hypnotizable hypnotizablered">HYPNOTIZABLE</span>
+    <span class="hypnotizable hypnotizableorange">HYPNOTIZABLE</span>
+    <span class="thisiskomet">THIS IS<br> KOMET</span>
+
+  </div>
+</div>
+
+
+<span class="anchor" id="experiments"></span>
+<div class="section">
+  <div class="sectionheader">
+    EXPERIMENTS
+  </div>
+
+  <div class="experiments">
+    <div id="kometexperiment">
+      <div id="kometexp1">
+        KOMET
+      </div>
+      <div id="kometexp2">
+        KOMET
+      </div>
+      <div id="kometexp3">
+        KOMET
+      </div>
+      <div id="kometexp4">
+        KOMET
+      </div>
+    </div>
+    
+
+    <div class="rocket">
+      <div class="rocketleft">
+        <span class="rocketsidenose">A</span><br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        <span class="rocketsidecone">^</span>
+      </div>
+      <div class="rocketmiddle">
+        <span class="rocketmiddlenose">A</span><br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        <span class="rocketmiddlecone">^</span>
+      </div>
+      <div class="rocketright">
+        <span class="rocketsidenose">A</span><br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        H<br>
+        <span class="rocketsidecone">^</span>
+      </div>
+
+      <div>
+        <div class="largeplumerev"><div id="Lpl1" class="slowplume">O</div></div>
+        <div class="largeplumerev"><div id="Lpl2" class="slowplume">O</div></div>
+        <div class="largeplume"><div id="Lpl3" class="slowplume">O</div></div>
+        <div class="largeplumerev"><div id="Lpl4" class="slowplume">O</div></div>
+        <div class="largeplume"><div id="Lpl5" class="slowplume">O</div></div>
+        <div class="largeplumerev"><div id="Lpl6" class="slowplume">O</div></div>
+        <div class="largeplume"><div id="Lpl7" class="slowplume">O</div></div>
+        <div class="largeplume"><div id="Lpl8" class="slowplume">O</div></div>
+        <div class="largeplumerev"><div id="Lpl9" class="slowplume">O</div></div>
+        <div class="largeplume"><div id="Lpl10" class="slowplume">O</div></div>
+        <div class="largeplumerev"><div id="Lpl11" class="slowplume">O</div></div>
+
+        <div class="mediumplume"><div id="Mpl1" class="normalplume">O</div></div>
+        <div class="mediumplumerev"><div id="Mpl2" class="normalplume">O</div></div>
+        <div class="mediumplume"><div id="Mpl3" class="normalplume">O</div></div>
+        <div class="mediumplumerev"><div id="Mpl4" class="normalplume">O</div></div>
+        <div class="mediumplume"><div id="Mpl5" class="normalplume">O</div></div>
+        <div class="mediumplumerev"><div id="Mpl6" class="normalplume">O</div></div>
+        <div class="mediumplume"><div id="Mpl7" class="normalplume">O</div></div>
+        <div class="mediumplume"><div id="Mpl8" class="normalplume">O</div></div>
+        <div class="mediumplume"><div id="Mpl9" class="normalplume">O</div></div>
+
+        <div class="smallplumerev"><div id="Spl1" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl2" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl3" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl4" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl5" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl6" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl7" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl8" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl9" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl10" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl11" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl12" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl13" class="fastplume">O</div></div>
+        <div class="smallplume"><div id="Spl14" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl15" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl16" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl17" class="fastplume">O</div></div>
+        <div class="smallplumerev"><div id="Spl18" class="fastplume">O</div></div>
+
+      </div>
+
+    </div>
+
+      <div class="calendar grid-container">
+        <div class="calendartitle">JANUARY <span class="calendaryear">2023</span></div>
+        <div class="daytitle">SUN</div>
+        <div class="daytitle">MON</div>
+        <div class="daytitle">TUE</div>
+        <div class="daytitle">WED</div>
+        <div class="daytitle">THUR</div>
+        <div class="daytitle">FRI</div>
+        <div class="daytitle">SAT</div>
+        <div class="day">1</div>
+        <div class="day">2</div>
+        <div class="day">3</div>
+        <div class="day">4</div>
+        <div class="day">5</div>
+        <div class="day">6</div>
+        <div class="day">7</div>
+        <div class="day">8</div>
+        <div class="day">9</div>
+        <div class="day">10</div>
+        <div class="day">11</div>
+        <div class="day">12</div>
+        <div class="day">13</div>
+        <div class="day">14</div>
+        <div class="day">15</div>
+        <div class="day">16</div>
+        <div class="day">17</div>
+        <div class="day">18</div>
+        <div class="day">19</div>
+        <div class="day">20</div>
+        <div class="day">21</div>
+        <div class="day">22</div>
+        <div class="day">23</div>
+        <div class="day">24</div>
+        <div class="day">25</div>
+        <div class="day">26</div>
+        <div class="day">27</div>
+        <div class="day">28</div>
+        <div class="day">29</div>
+        <div class="day">30</div>
+        <div class="day">31</div>
+        <div class="day offday">1</div>
+        <div class="day offday">2</div>
+        <div class="day offday">3</div>
+        <div class="day offday">4</div>
+      </div>
+  </div>
+
+  <a class="getthefont footernav" target="_blank" href="https://fonts.adobe.com/fonts/komet">GET THE FONT</a>
+
+</div>
+
+
+<hr id="NAVYELLOW">
+<hr id="NAVORANGE">
+<hr id="NAVRED">
+<div class="footer">
+  <div id="FOOTERTITLE">KOMET</div>
+  <div class="footerabout">
+      Font Author: Jan Fromm<br><br>
+      Website by: Jeffrey Bose;<br>
+      University of Wisconsin - Parkside<br>
+      Art 377
+  </div>
+  <div class="footernav">
+      <a class="footernav" href="#top">TOP</a><br>
+      <a class="footernav" href="#introduction">INTRODUCTION</a><br>
+      <a class="footernav" href="#AtoZ">ALPHABET</a><br>
+      <a class="footernav" href="#bodytext">BODY TEXT</a><br>
+      <a class="footernav" href="#displaytext">DISPLAY TEXT</a><br>
+      <a class="footernav" href="#experiments">EXPERIMENTS</a><br>
+    </div>
+</div>
+
+
+</body>
+</html>

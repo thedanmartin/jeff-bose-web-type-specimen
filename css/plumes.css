@@ -1,0 +1,258 @@
+
+/* Large Plumes */
+#Lpl1 {
+    position: absolute;
+    top:29vw;
+    left: 15vw;
+}
+
+#Lpl2 {
+    position: absolute;
+    top:29.5vw;
+    left: 11vw;
+    animation-direction: reverse;
+}
+
+#Lpl3 {
+    position: absolute;
+    top:29.5vw;
+    left: 19vw;
+    animation-direction: reverse;
+}
+
+#Lpl4 {
+    position: absolute;
+    top:37vw;
+    left: 13.5vw;
+    animation-direction: reverse;
+}
+
+#Lpl5 {
+    position: absolute;
+    top:35vw;
+    left: 21vw;
+}
+
+#Lpl6 {
+    position: absolute;
+    top:34vw;
+    left: 8vw;
+}
+
+#Lpl7 {
+    position: absolute;
+    top:42vw;
+    left: 9.5vw;
+}
+
+#Lpl8 {
+    position: absolute;
+    top:43vw;
+    left: 23vw;
+    animation-direction: reverse;
+}
+
+#Lpl9 {
+    position: absolute;
+    top:50vw;
+    left: 18vw;
+}
+
+#Lpl10 {
+    position: absolute;
+    top:45vw;
+    left: 15vw;
+    animation-direction: reverse;
+}
+
+#Lpl11 {
+    position: absolute;
+    top:41vw;
+    left: 17vw;
+}
+
+/* End Large Plumes */
+
+/* Medium Plumes */
+
+#Mpl1 {
+    position: absolute;
+    top:34vw;
+    left: 14.5vw;
+}
+
+#Mpl2 {
+    position: absolute;
+    top:36.5vw;
+    left: 18vw;
+    animation-direction: reverse;
+}
+
+#Mpl3 {
+    position: absolute;
+    top:39vw;
+    left: 10.5vw;
+}
+
+#Mpl4 {
+    position: absolute;
+    top:43vw;
+    left: 14vw;
+    animation-direction: reverse;
+}
+
+#Mpl5 {
+    position: absolute;
+    top:46vw;
+    left: 19.5vw;
+
+}
+
+#Mpl6 {
+    position: absolute;
+    top:40.5vw;
+    left: 22vw;
+
+}
+
+#Mpl7 {
+    position: absolute;
+    top:47vw;
+    left: 12vw;
+    animation-direction: reverse;
+}
+
+#Mpl8 {
+    position: absolute;
+    top:50.5vw;
+    left: 15vw;
+}
+
+
+#Mpl9 {
+    position: absolute;
+    top:48vw;
+    left: 23vw;
+}
+
+/* End Medium Plumes */
+
+/* Small Plumes */
+
+#Spl1 {
+    position: absolute;
+    top:32.5vw;
+    left: 9vw;
+    animation-direction: reverse;
+}
+
+#Spl2 {
+    position: absolute;
+    top:36vw;
+    left: 12.5vw;
+}
+
+#Spl3 {
+    position: absolute;
+    top:34.5vw;
+    left: 18vw;
+}
+
+#Spl4 {
+    position: absolute;
+    top:35vw;
+    left: 20vw;
+    animation-direction: reverse;
+}
+
+#Spl5 {
+    position: absolute;
+    top:40vw;
+    left: 20.5vw;
+}
+
+#Spl6 {
+    position: absolute;
+    top:40vw;
+    left: 18vw;
+    animation-direction: reverse;
+}
+
+#Spl7 {
+    position: absolute;
+    top:44vw;
+    left: 21.5vw;
+    animation-direction: reverse;
+}
+
+#Spl8 {
+    position: absolute;
+    top:33.8vw;
+    left: 23vw;
+}
+
+#Spl9 {
+    position: absolute;
+    top:41.8vw;
+    left: 13vw;
+}
+
+#Spl10 {
+    position: absolute;
+    top:39.5vw;
+    left: 8.5vw;
+    animation-direction: reverse;
+}
+
+#Spl11 {
+    position: absolute;
+    top:41.5vw;
+    left: 9vw;
+}
+
+#Spl12 {
+    position: absolute;
+    top:39.5vw;
+    left: 25vw;
+}
+
+#Spl13 {
+    position: absolute;
+    top:42vw;
+    left: 24.9vw;
+    animation-direction: reverse;
+}
+
+#Spl14 {
+    position: absolute;
+    top:47.5vw;
+    left: 10vw;
+    animation-direction: reverse;
+}
+
+#Spl15 {
+    position: absolute;
+    top:39.5vw;
+    left: 8.5vw;
+}
+
+#Spl16 {
+    position: absolute;
+    top:49.5vw;
+    left: 21vw;
+}
+
+#Spl17 {
+    position: absolute;
+    top:51.5vw;
+    left: 23vw;
+}
+
+#Spl18 {
+    position: absolute;
+    top:48.5vw;
+    left: 26vw;
+}
+
+/* End Small Plumes */
+/* oof */
